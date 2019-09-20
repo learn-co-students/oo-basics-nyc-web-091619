@@ -1,4 +1,4 @@
-require 'pry'
+
 class Book
 
     attr_accessor :genre, :author, :page_count
