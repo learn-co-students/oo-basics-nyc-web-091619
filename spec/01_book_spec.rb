@@ -16,7 +16,7 @@ describe 'Book' do
       book.author = "Agatha Christie"
       expect(book.author).to eq("Agatha Christie")
     end
-
+ 
     it 'has a page count' do
       book.page_count = 272
       expect(book.page_count).to eq(272)
